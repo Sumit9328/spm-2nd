@@ -33,8 +33,6 @@ document.addEventListener("DOMContentLoaded", function () {
   });
 });
 
-
-
 document.querySelectorAll(".accordion-header").forEach((header) => {
   header.addEventListener("click", function () {
     const parent = this.parentElement;
@@ -79,12 +77,19 @@ var splide = new Splide(".splide", {
 });
 
 splide.mount();
-var splide2 = new Splide("#slider-2", {
+
+var splidetwo = new Splide("#slider-2", {
   perPage: 1,
   pagination: false,
-  
+  type: "loop",
+  perPage: 3,
+  focus: "center",
+  breakpoints: {
+    1024: { perPage: 2 },
+    768: { perPage: 1 },
+  },
 });
 
-splide2.mount();
+splidetwo.mount();
 
 ////////////////////end////////////////////////
