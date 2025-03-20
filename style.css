@@ -2108,6 +2108,7 @@ h3{
 .top-bar .left span, .top-bar .right span {
   margin-right: 15px;
   cursor: pointer;
+  font-weight: 500;
 }
 .top-bar .right span {
   margin-left: 15px;
@@ -2150,6 +2151,7 @@ h3{
   position: relative;
   margin: 0 15px;
   padding: 10px;
+  font-weight: 400;
   cursor: pointer;
   color: #000000;
 }
@@ -2164,7 +2166,7 @@ z-index: 9999;
 left: 0;
 background: white;
 color: black;
-padding: 20px 2px;
+padding: 10px 0px;
 list-style: none;
 -webkit-box-shadow: -2px 5px 17px -7px rgba(0, 0, 0, 0.87);
 -moz-box-shadow: -2px 5px 17px -7px rgba(0,0,0,0.87);
@@ -2172,7 +2174,7 @@ box-shadow: -2px 5px 17px -7px rgba(0, 0, 0, 0.87);
 }
 
 .dropdown li {
-  padding: 5px 10px;
+  padding: 5px 0px;
   cursor: pointer;
   color: #0e0e0e;
 }
