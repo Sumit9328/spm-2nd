@@ -2074,6 +2074,15 @@ h3 {
   font-weight: 500;
 }
 
+.left {
+  font-size: 16px;
+}
+
+.right {
+  font-size: 16px;
+}
+
+
 .top-bar .right span {
   margin-left: 15px;
 }
