@@ -81,15 +81,14 @@ splide.mount();
 var splidetwo = new Splide("#slider-2", {
   perPage: 1,
   pagination: false,
-  type: "loop",
-  perPage: 3,
-  focus: "center",
-  breakpoints: {
-    1024: { perPage: 2 },
-    768: { perPage: 1 },
-  },
+  
 });
 
 splidetwo.mount();
 
 ////////////////////end////////////////////////
+
+
+function toggleMenu() {
+    document.querySelector('.menu').classList.toggle('active');
+}

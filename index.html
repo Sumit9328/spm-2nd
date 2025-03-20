@@ -25,102 +25,74 @@
   </head>
 
   <body>
-    <!-- Top Header Section -->
 
-    <div class="container">
-      <div class="head-flex" id="phoneMenu">
-        <div class="header-top">
-          <div class="left-links">
-            <span><a href="" class="header-a">Careers</a></span>
-            <span><a href="" class="header-a">Blogs</a></span>
-            <span><a href="" class="header-a">Referrals</a></span>
-            <span><a href="" class="header-a">Client Login</a></span>
-          </div>
-          <div class="right-text">
-            <a href="" class="header-a">Call our experts at (877) 225-3253</a>
-          </div>
-        </div>
 
-        <!-- Divider Line -->
-        <div class="divider"></div>
 
-        <!-- Main Navbar -->
-        <div class="navbar">
-          <div class="logo">
-            <a href="">
-              <img src="./images/Group (1).svg" alt="Able Facility Solutions" />
-            </a>
-          </div>
-          <div class="nav-links">
-            <span class="Industries"
-              ><a href="" class="header-a">Industries</a
-              ><span class="arrow"> ⮞ </span>
+    <!-- /////////////////////////////////nav start//////////////////////////////// -->
 
-              <div class="dropdown-first">
-                <div class="dropdown-first-content">
-                  <div><a href="">Home</a></div>
-                  <div><a href="">About</a></div>
-                  <div><a href="">Career</a></div>
-                  <div><a href="">Blog</a></div>
-                </div>
-              </div>
-            </span>
-            <span class="Solutions"
-              ><a href="" class="header-a">Solutions</a>
-              <span class="arrow"> ⮞ </span>
-              <div class="dropdown-sec">
-                <div class="dropdown-first-content">
-                  <div><a href="">Home</a></div>
-                  <div><a href="">About</a></div>
-                  <div><a href="">Career</a></div>
-                  <div><a href="">Blog</a></div>
-                </div>
-              </div>
-            </span>
-            <span class="Solutions"
-              ><a href="" class="header-a">Solutions</a>
-              <span class="arrow"> ⮞ </span>
-              <div class="dropdown-sec">
-                <div class="dropdown-first-content">
-                  <div><a href="">Home</a></div>
-                  <div><a href="">About</a></div>
-                  <div><a href="">Career</a></div>
-                  <div><a href="">Blog</a></div>
-                </div>
-              </div>
-            </span>
-            <span class="Solutions"
-              ><a href="" class="header-a">Solutions</a>
-              <span class="arrow"> ⮞ </span>
-              <div class="dropdown-sec">
-                <div class="dropdown-first-content">
-                  <div><a href="">Home</a></div>
-                  <div><a href="">About</a></div>
-                  <div><a href="">Career</a></div>
-                  <div><a href="">Blog</a></div>
-                </div>
-              </div>
-            </span>
-            <span class="quote"
-              ><a href="" class="header-a">Request a Quote</a></span
-            >
-          </div>
-        </div>
+ <div class="head-position">
+     <!-- Top Bar (Hidden in Mobile) -->
+     <div class="top-bar">
+      <div class="left">
+          <span>Career</span> | <span>Blogs</span> | <span>Referral</span> | <span>Client Login</span>
       </div>
-    </div>
-
-    <div class="mobile-in">
-      <div class="mobile">
-        <div class="mob-logo">
-          <img src="./images/Group.svg" alt="" />
-        </div>
-
-        <div class="HMBG-icon">
-          <img src="./images/dd328cc20efc2595bc840223bf9a55d1.gif" alt="" />
-        </div>
+      <div class="right">
+          <span>Contact Us</span> | <span>XXXXXXXX</span>
       </div>
-    </div>
+  </div>
+  
+  <!-- Horizontal Line -->
+  <div class="line"></div>
 
+  <!-- Navbar -->
+  <nav class="navbar">
+      <div class="logo">
+          <img src="./images/Group (5).svg" alt="">
+      </div>
+      <div class="hamburger" onclick="toggleMenu()">☰</div>
+      <ul class="menu">
+          <li tabindex="0">Home <span class="arrow">▼</span>
+              <ul class="dropdown">
+                  <li>Submenu 1</li>
+                  <li>Submenu 2</li>
+                  <li>Submenu 3</li>
+              </ul>
+          </li>
+          <li tabindex="0">Services <span class="arrow">▼</span>
+              <ul class="dropdown">
+                  <li>Web Development</li>
+                  <li>App Development</li>
+                  <li>SEO</li>
+              </ul>
+          </li>
+          <li tabindex="0">About <span class="arrow">▼</span>
+              <ul class="dropdown">
+                  <li>Company</li>
+                  <li>Team</li>
+                  <li>Careers</li>
+              </ul>
+          </li>
+          <li tabindex="0">Contact <span class="arrow">▼</span>
+              <ul class="dropdown">
+                  <li>Email</li>
+                  <li>Phone</li>
+                  <li>Location</li>
+              </ul>
+          </li>
+          <li tabindex="0" class="more-display">More <span class="arrow">▼</span>
+              <ul class="dropdown">
+                  <li>Career</li>
+                  <li>Blogs</li>
+                  <li>Referral</li>
+                  <li>Client Login</li>
+              </ul>
+          </li>
+      </ul>
+  </nav>
+ </div>
+
+
+<!-- /////////////////////////////////////////nav//////////////////////////// -->
     <section class="outerwrap">
       <div class="or-content">
         <div class="container-fluid">
@@ -231,8 +203,10 @@
                     </p>
                   </div>
                   <div class="grid-content-one-sec">
-                    <p class="learn-p"><a href="">LEARN MORE</a></p>
-                    <img src="./images/Arrow 6.svg" alt="" />
+                    <p class="learn-p">
+                      <a href="">LEARN MORE</a>
+                      <img src="./images/Arrow 6.svg" alt="" />
+                    </p>
                   </div>
                 </div>
 
@@ -410,14 +384,13 @@
                   <span>Customer Retention Rate</span>
                 </div>
               </div>
-
+              
               <div class="out-b">
                 <div class="box">
                   <div class="counter" data-target="2000">0</div>
                   <span>Employees Nationwide</span>
                 </div>
               </div>
-              
               <div class="out-b">
                 <div class="box">
                   <div class="counter" data-target="150" data-suffix="+">
